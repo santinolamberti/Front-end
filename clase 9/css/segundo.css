@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Karla:ital,wght@0,200;1,300;1,800&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+aside{
+    background-color: #1CD1B0;
+}
+header{ 
+    background-color: #00669F;
+    height: 74px;
+    position: relative;
+}
+h1{
+    padding-top: 16px;
+    margin-left: 101px;
+    display: inline-block;
+    color: white;
+}
+.img{
+    background-image: url("../img/logo\ 1.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+footer{
+    background-color: #00669F;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+}
+.footer{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.registrarse{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+}
+#nombre, #contraseña, #email, #país{
+    width: 100%;
+    margin: 5px 0px;
+    height: 40px;
+    border: 1px solid black;
+    font-family: 'Karla', sans-serif;
+}
+.jiji{
+    text-decoration: none;
+    color: #00669F;
+}
+#boton{
+    margin-top: 30px;
+    width: 49.50%;
+    background-color: #888888;
+    border-radius: 23.011px;
+    border: transparent;
+    font-weight: bold;
+    height: 30px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+#boton-dos{
+    margin-top: 30px;
+    width: 49.50%;
+    margin-bottom: 20px;
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border: transparent;
+    font-weight: bold;
+    height: 30px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.registro{
+    text-align: center;
+}
+::placeholder{
+    color: black;
+    text-indent: 10px;
+}

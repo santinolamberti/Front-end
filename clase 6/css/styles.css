@@ -1,0 +1,23 @@
+.banner{
+    background-image: url(../img/lemon-pie2.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 400px;
+    color: white;
+    font-family:  'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h3{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: lighter;
+}
+dl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
+}
