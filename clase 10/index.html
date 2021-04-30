@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>formulario</title>
+</head>
+<body>
+    <aside>20% de descuento en todos los productos</aside>
+    <header>
+        <div class="img"></div>
+        <h1>Nombre Tienda</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Añadí tu super!</h2>
+            <h3>Agregá tu personaje favorito completando las opciones</h3>
+            <form action="" method="">
+                <div class="columna1">
+                <label for="nombre">Nombre</label> 
+                <br><br>
+                <input type="text" id="nombre" required>
+                <br><br>
+                <label for="fecha" class="fech">fecha</label>
+                <br><br>
+                <input type="date" id="fecha" required>
+                <label for="descripcion"></label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+            </div>
+            <div class="columna2">
+                <label for="especie" class="espe">Especie</label>
+                <select name="especie" id="especie">
+                    <option value="Especie">Especie</option>
+                    <option value="humano">humano</option>
+                    <option value="alien">alien</option>
+                    <option value="villano">villano</option>
+                </select>
+                <label for="foto" class="fot">Agregar Foto</label>
+                <input type="file" id="foto" placeholder="seleccioanar archivo">
+                <label for="poderes" class="poder">Poderes</label>
+               <div class="volar"><label for="volar"> 
+                <input type="checkbox" id="poderes" value="volar" name="poderes"> Volar</label></div><br>
+               <div class="inteligencia"> <label for="superinteligencia">
+                    <input type="checkbox" id="poderes" value="superinteligencia" name="poderes"> superinteligencia</label></div>
+                    <br> <div class="vista"><label for="vista-de-rayo-láser">
+                        <input type="checkbox" id="poderes" value="vista de rayo láser" name="poderes"> vista de rayo láser</label></div>
+                        <br><div class="billetera"><label for="billetera gorda">
+                            <input type="checkbox" id="poderes" value="billetera gorda" name="poderes"> billetera gorda</label></div>
+                            <hr>
+                            <br> <label for="personaje">Tipo de personaje</label>
+                            <br> <label for="tipo"><input type="radio" id="tipo" value="tipo" name="tipo">Héroe / Heroína</label>
+                            <br><label for="malo"><input type="radio" id="malo" value="malo" name="tipo">villano</label> 
+            </div>
+            <br> <label for="boton"></label>
+            <input type="submit" id="boton" name="boton" value="Añadir">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

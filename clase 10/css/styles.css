@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+aside{
+    background-color: #1CD1B0;
+}
+header{ 
+    background-color: #00669F;
+    height: 74px;
+    position: relative;
+}
+h1{
+    padding-top: 16px;
+    margin-left: 101px;
+    display: inline-block;
+    color: white;
+}
+.img{
+    background-image: url("../img/logo\ 1.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+main{
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #00669F;
+    position: relative;
+}
+.columna1, .columna2{
+    margin-top: 30px;
+    display: inline-block;
+}
+.columna1{
+    margin-right: 20px;
+    margin-left: 15%;
+    width: 40%;
+}
+.columna2{
+    width: 40%;
+    
+}
+/* .fech{
+    margin-top: 20px;
+} */
+#fecha{
+    margin-top: 0px;
+}
+#descripcion{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+textarea{
+    width: 260px;
+height: 220px;
+}
+.espe{
+    position: absolute;
+    top: 80px;
+    right: 35%;
+}
+#especie{
+    position: absolute;
+    top: 116px;
+}
+.fot{
+    position: absolute;
+    top: 160px;
+}
+#foto{
+    position: absolute;
+    top: 203px;
+}
+#boton{
+    margin-top: 30px;
+    margin-left: 50%;
+}
