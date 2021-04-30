@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/nuevo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@1,200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>formulario</title>
 </head>
 <body>
@@ -18,19 +23,16 @@
             <h2>Añadí tu super!</h2>
             <h3>Agregá tu personaje favorito completando las opciones</h3>
             <form action="" method="">
-                <div class="columna1">
-                <label for="nombre">Nombre</label> 
-                <br><br>
+                <fieldset class="columna1">
+                <label for="nombre" class="name">*Nombre</label> 
                 <input type="text" id="nombre" required>
-                <br><br>
                 <label for="fecha" class="fech">fecha</label>
-                <br><br>
                 <input type="date" id="fecha" required>
                 <label for="descripcion"></label>
                 <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
-            </div>
-            <div class="columna2">
-                <label for="especie" class="espe">Especie</label>
+            </fieldset>
+            <fieldset class="columna2">
+                <label for="especie" class="espe">*Especie</label>
                 <select name="especie" id="especie">
                     <option value="Especie">Especie</option>
                     <option value="humano">humano</option>
@@ -40,23 +42,24 @@
                 <label for="foto" class="fot">Agregar Foto</label>
                 <input type="file" id="foto" placeholder="seleccioanar archivo">
                 <label for="poderes" class="poder">Poderes</label>
-               <div class="volar"><label for="volar"> 
-                <input type="checkbox" id="poderes" value="volar" name="poderes"> Volar</label></div><br>
-               <div class="inteligencia"> <label for="superinteligencia">
-                    <input type="checkbox" id="poderes" value="superinteligencia" name="poderes"> superinteligencia</label></div>
-                    <br> <div class="vista"><label for="vista-de-rayo-láser">
-                        <input type="checkbox" id="poderes" value="vista de rayo láser" name="poderes"> vista de rayo láser</label></div>
-                        <br><div class="billetera"><label for="billetera gorda">
-                            <input type="checkbox" id="poderes" value="billetera gorda" name="poderes"> billetera gorda</label></div>
+               <div class="volar"><label class= "letrasCheck" for="volar"> 
+                <input type="checkbox" class="checks" id="poderes" value="volar" name="poderes"> Volar</label></div>
+               <div class="inteligencia"> <label class= "letrasCheck" for="superinteligencia">
+                    <input type="checkbox" class="checks" id="poderes" value="superinteligencia" name="poderes"> superinteligencia</label></div>
+                    <div class="vista"><label class= "letrasCheck" for="vista-de-rayo-láser">
+                        <input type="checkbox" class="checks" id="poderes" value="vista de rayo láser" name="poderes"> vista de rayo láser</label></div>
+                       <div class="billetera"><label class= "letrasCheck" for="billetera gorda">
+                            <input type="checkbox" class="checks" id="poderes" value="billetera gorda" name="poderes"> billetera gorda</label></div>
                             <hr>
-                            <br> <label for="personaje">Tipo de personaje</label>
-                            <br> <label for="tipo"><input type="radio" id="tipo" value="tipo" name="tipo">Héroe / Heroína</label>
-                            <br><label for="malo"><input type="radio" id="malo" value="malo" name="tipo">villano</label> 
-            </div>
-            <br> <label for="boton"></label>
-            <input type="submit" id="boton" name="boton" value="Añadir">
+                            <label for="personaje">Tipo de personaje</label>
+                            <label for="tipo" class="botoncitos"><input type="radio" class="radio" id="tipo" value="tipo" name="tipo">Héroe / Heroína</label>
+                           <label for="malo" class="botoncitos2"><input type="radio" class="radio" id="malo" value="malo" name="tipo">villano</label> 
+            </fieldset>
+            <label for="boton"></label>
+            <input type="submit" id="boton" name="boton" value="Añadir" class="añade">
             </form>
         </section>
     </main>
+    <footer><p class="footer"> Los derechos reservados a FRONT END 1</p></footer>
 </body>
 </html>

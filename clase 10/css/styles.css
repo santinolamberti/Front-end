@@ -31,6 +31,8 @@ main{
     margin-top: 60px;
     background-color: #00669F;
     position: relative;
+    color: white;
+    margin-bottom: 0;
 }
 .columna1, .columna2{
     margin-top: 30px;
@@ -79,4 +81,23 @@ height: 220px;
 #boton{
     margin-top: 30px;
     margin-left: 50%;
+}
+#malo{
+    margin-top: 10px;
+}
+#tipo{
+    margin-top: 10px;
+}
+footer{
+    background-color: #00669F;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+}
+.footer{
+    color: white;
+    text-align: center;
+    line-height: 50px;
 }

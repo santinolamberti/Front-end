@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+aside{
+    background-color: #1CD1B0;
+}
+header{ 
+    background-color: #00669F;
+    height: 74px;
+    position: relative;
+}
+h1{
+    padding-top: 16px;
+    margin-left: 101px;
+    display: inline-block;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.img{
+    background-image: url("../img/logo\ 1.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+
+main{
+    width: 700px;
+    height: 620px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #00669F;
+    position: relative;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+.columna1, .columna2{
+    width: 44%;
+    margin-top: 30px;
+    display: inline-block;
+    border: none;
+    vertical-align: top;
+}
+.columna1{
+    margin-left: 5%;
+}
+.columna2{
+    margin-right: 5%;
+}
+#nombre, #especie{
+    margin-bottom: 20px;
+}
+/* #nombre{
+    height: 50px;
+    width: 100%;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fecha{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20%;
+} */
+input{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+select{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+.letrasCheck{
+    font-family: 'Karla', sans-serif;
+}
+.checks{
+    width: 20px;
+    height: 20px;
+    
+}
+.radio{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botoncitos, .botoncitos2{
+    display: block;
+    font-family: 'Karla', sans-serif;
+}
+
+#descripcion{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+textarea{
+    width: 260px;
+    height: 220px;
+}
+.añade{
+    background-color: #1CD1B0;
+    width: 33%;
+    margin-left: 32%;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+footer{
+    background-color: #00669F;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
