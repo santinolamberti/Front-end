@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .superior{
+      background-color: black;
+      height: 35px;
+      color: white;
+      width: 100%;
+      padding-left: 25px;
+      display: flex;
+      align-items: center;
+  }
+  header{
+      background-color: #F0A83E;
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+      height: 100px;
+      padding: 30px;
+  }
+  header nav ul {
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-right: 500px;
+  }
+  header nav ul ::before{
+      content: url("../img/_fas\ fa-paw_\ -\ f1b0.png");
+      color: white;
+  }
+  i{
+      display: flex;
+      justify-content: flex-end;
+      color: white;
+  }
+  h1{
+      color: white;
+  }
+  .titulo{
+      color: black;
+  }
+  .contacto{
+      height: 500px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+#nombre, #email, #telefono{
+    width: 100%;
+    margin: 5px 0px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+#boton, #boton-dos{
+    width: 30%;
+    width: 30%;
+    height: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+#boton{
+    margin-top: 30px;
+    background-color: #8A8787;
+    border-radius: 23.011px;
+    border: transparent;
+}
+#boton-dos{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #F0A83E;
+    border-radius: 23.011px;
+    border: transparent;
+}
+input{
+    background-color: #3C2313;
+}
+::placeholder{
+    color: #FFFFFF;
+}
+footer{
+    background-color: black;
+    color: #FFFFFF;
+}
+h4{
+    text-align: center;
+}
+#localidad ::before{
+    content: url("../img/ubic.png");
+}
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    background: #3C2313;
+}
+.columna-izq{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+  }
+  .columna-izq h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .columna-der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+    .titulo{
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+    .redes_sociales{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 10px;
+    }
+  .columna-der h1 {
+    color: white;
+  }
+  .columna-der span {
+    color: #F0A83E;
+  }
+  .iconos{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  @media screen and (max-width: 768px){
+      header nav li, .iconos{
+          display: none;
+      }
+      header nav::before {
+        content: "\f0c9";
+        font-family: "font awesome 5 free";
+        font-weight: 900;
+        font-size: 2rem;
+        color: white;
+        position: relative;
+        left: 468px;
+       }
+  }
